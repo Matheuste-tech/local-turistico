@@ -1,64 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+}
 
 #page {
+  margin-top: ;
   box-sizing: border-box;
   width: 1120px;
-  margin: 113px auto 112px;
-
+  margin: 88px auto 0px;
+  
+  
 }
 
 :root {
   font-family: "Open Sans",sans-serif;
-  
 }
 
-img {
-  height: 350px;
-  
-  object-fit: cover;
-
+main image  {
+  width: 660px;
 }
 
-header {
+headline {
   color: #E1624F;
   text-transform: uppercase;
   font-weight: bold;
   font-size: 16px;
-  margin-top: 97px;
+  margin-top: 88px;
   margin-bottom: 2px;
-
-
 }
 
 h1 {
   font-size: 36px;
   font-weight: bold;
   margin-top: 6px;
-
+  margin-bottom: 32px;
 }
 
 h2 {
   font-size: 32px;
   font-weight: bold;
+  padding-bottom: 4px;
 }
 
 h3 {
   font-size: 28px;
   font-weight: bold;
-
+  margin-top: 20px;
 }
 
 p {
   font-size: 16px;
   font-weight: normal;
+  color: #333333;
+  padding-bottom: 40px;
+  padding-top: 4px;
+}
 
+img {
+  padding-top: 8px;
 }
 
 .subtitle {
   font-size: 16px;
   font-style: italic;
-  margin-bottom: 44px;
-
+  padding-bottom: 44px;
+  text-align: center;
+  padding-top: 24px;
 }
+
+.divider {
+  width: 100%;
+  height: 1px;
+  margin: 36px 0;
+  background-color: #d9d9d9;
+  margin: 0;
+  padding: 0;
+}
+
+#artigos {
+  padding-top: 64px;
+}
+
+#destinos {
+  padding-bottom: 64px;
+  
+}
+
+#description {
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 65px;
+}
+
+h1, h2, h3 {
+  color: #1B1B1B;
+}
+
+footer {
+  color: #333333;
+  text-align: center;
+  padding-bottom: 48px;
+}
+
+footer img {
+  padding: 0px;
+  vertical-align: auto;
+}
+
+li:marker {
+  color: ;
+}
+
+
+
 
 
 
